@@ -6,10 +6,11 @@ Supervisor: Jan Kierfeld (jan.kierfeld@tu-dortmund.de)
 # Citation and use
 If you use this work in your research department or company and
 you publish data obtained with this, please cite the following
-articles:
+article:
 
-* Following soon
-
+* Pendant Drop Tensiometry: A Machine Learning Approach, </br>
+Felix Kratz and Jan Kierfeld, </br>
+[arXiv:2006.10111](https://arxiv.org/abs/2006.10111) (2020)
 
 
 # Use of the provided neural nets
@@ -56,7 +57,7 @@ dataHandler.loadDataFromPreprocessedFile("path/to/preprocessed/file",
                                           readDataPercentage=1.,
                                           readDataPercentMode="front")
 ```
-where additional arguments can be used an from which end ("front", "back") the
+where additional arguments can be used, as from which end ("front", "back") the
 data is read and which percentage of the data should be read (1: all, 0: none).
 
 ### Networks sampled uniformly in  p<sub>L</sub> - &Delta; &rho; space
