@@ -10,7 +10,19 @@ article:
 
 * Pendant Drop Tensiometry: A Machine Learning Approach, </br>
 Felix Kratz and Jan Kierfeld, </br>
-[arXiv:2006.10111](https://arxiv.org/abs/2006.10111) (2020)
+The Journal of Chemical Physics 153.9 (2020), [DOI: 10.1063/5.0018814](https://doi.org/10.1063/5.0018814)
+
+```latex
+@article{kratz2020,
+author = {Kratz, Felix S.  and Kierfeld, Jan },
+title = {Pendant drop tensiometry: A machine learning approach},
+journal = {The Journal of Chemical Physics},
+volume = {153},
+number = {9},
+year = {2020},
+doi = {10.1063/5.0018814}
+}
+```
 
 
 # Use of the provided neural nets
