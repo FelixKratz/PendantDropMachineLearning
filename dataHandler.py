@@ -44,7 +44,7 @@ class DataHandler:
     #                       "back"  => read the last "readDataPercentage" percent from the disk
     # Can be used to train and evaluate on first 60% and test on last 40% of the data
     def loadDataFromPreprocessedFile(self, file, readDataPercentage=1., readDataPercentMode="front"):
-        dat = np.load(file)
+        dat = np.load(file, allow_pickle=True)
         self.data = dat['data']
         self.labels = dat['labels']
 
